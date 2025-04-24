@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>javascript</title>
+</head>
+
+<body>
+    <p>math additon Gr2</p>
+    <p id="demo"></p>
+
+<script>
+    function myfunction(x,y){
+        if (y === undefined){
+            y=9;
+        }
+        return x * y
+    }
+    document.getElementById("demo").innerHTML = myfunction(2);
+</script>
+</body>
+
+</html>
