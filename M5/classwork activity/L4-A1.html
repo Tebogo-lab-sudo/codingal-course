@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2>Javascript string Methodes</h2>
+<p id="search_result"></p>
+<P id="replace_result"></P>
+<p id="string_result"></p>
+
+<script>
+var str = "hi my names is sam what is yours";
+var search_position = str.search("name");
+var txt = str.replace("hi my","is sam");
+document.getElementById("search_result").innerHTML = search_position;
+document.getElementById("replace_result").innerHTML = txt;
+var x = 80;
+var y = 20;
+document.getElementById("string_result").innerHTML = String(x) + String(y);
+</script>
+</body>
+
+</html>
